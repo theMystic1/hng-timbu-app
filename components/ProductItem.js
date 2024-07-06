@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   },
   price: {
     fontSize: 16,
-    fontWeight: 400,
+    fontWeight: "bold",
     paddingHorizontal: 16,
     paddingVertical: 8,
     paddingTop: 2,

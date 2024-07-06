@@ -16,7 +16,7 @@ export default Button;
 const styles = StyleSheet.create({
   button: {
     flex: 1,
-    height: 50,
+    height: 60,
     borderRadius: 8,
     paddingVertical: 16,
     paddingHorizontal: 16,
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#fff",
-    fontSize: 18,
+    fontSize: 16,
     textAlign: "center",
     fontWeight: "bold",
     textTransform: "uppercase",

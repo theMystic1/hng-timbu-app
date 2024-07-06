@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-function Header({ children, style }) {
+function Header({ children, style, childrenStyle }) {
   return (
     <View style={style}>
-      <Text style={styles.header}>{children}</Text>
+      <Text style={[styles.header, childrenStyle]}>{children}</Text>
     </View>
   );
 }

@@ -10,6 +10,7 @@ import {
 import { allProducts } from "../services/http";
 import { SafeAreaView } from "react-native-safe-area-context";
 import ProductItem from "../components/ProductItem";
+import Activity from "../components/Activity";
 
 function Products() {
   const [products, setProducts] = useState([]);
@@ -30,7 +31,7 @@ function Products() {
     getProducts();
   }, []);
 
-  if (isLoading) return <Text>Loading...</Text>;
+  if (isLoading) return <Activity />;
 
   // SafeAreaView;
   return (
